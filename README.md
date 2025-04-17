@@ -1,7 +1,7 @@
 # Fraud Detection System - README
 
 ## Overview
-This repository contains a comprehensive analysis of online payments data containing fraudulent and legitimate transactions. I employ multiple machine learning models to detect fraudulent financial transactions and then use the best model to construct risk score for each transaction. The notebook includes data preprocessing, feature engineering, model training with class imbalance handling, and risk scoring capabilities.
+In this repository, I employ multiple machine learning models to detect fraudulent financial transactions and then use the best model to construct risk score for each transaction. The notebook includes data preprocessing, feature engineering, model training with class imbalance handling, and risk scoring capabilities.
 
 ## Key Features
 - **Multiple Model Evaluation**: Tests Logistic Regression, Random Forest, and Deep Neural Networks
