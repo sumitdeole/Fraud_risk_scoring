@@ -1,0 +1,94 @@
+{
+  "training_date": "2025-04-17T12:03:56.073819",
+  "model_type": "RandomForestClassifier",
+  "performance_metrics": [
+    {
+      "model_name": "Logistic Regression",
+      "smote_used": false,
+      "precision": 0.003027171344101296,
+      "recall": 0.9902597402597403,
+      "roc_auc": 0.9645132083544246,
+      "fbeta": 0.014953014441915507
+    },
+    {
+      "model_name": "Random Forest",
+      "smote_used": false,
+      "precision": 0.9995928338762216,
+      "recall": 0.9963474025974026,
+      "roc_auc": 0.9981730757102372,
+      "fbeta": 0.9969948018193632
+    },
+    {
+      "model_name": "DNN",
+      "smote_used": false,
+      "precision": 0.9765432098765432,
+      "recall": 0.6420454545454546,
+      "roc_auc": 0.9984819091593484,
+      "fbeta": 0.6892645521087487
+    },
+    {
+      "model_name": "Logistic Regression",
+      "smote_used": true,
+      "precision": 0.005522086081174666,
+      "recall": 0.9902597402597403,
+      "roc_auc": 0.97786049408675,
+      "fbeta": 0.027008000566725258
+    },
+    {
+      "model_name": "Random Forest",
+      "smote_used": true,
+      "precision": 0.912332838038633,
+      "recall": 0.9967532467532467,
+      "roc_auc": 0.9991742219501026,
+      "fbeta": 0.9786420146636914
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "balance_change_orig",
+      "importance": 0.30084285225332547
+    },
+    {
+      "feature": "transaction_ratio",
+      "importance": 0.2849598014726264
+    },
+    {
+      "feature": "oldbalanceOrg",
+      "importance": 0.11473892265611768
+    },
+    {
+      "feature": "balance_orig_after",
+      "importance": 0.10262741783849517
+    },
+    {
+      "feature": "newbalanceOrig",
+      "importance": 0.09181815648529319
+    },
+    {
+      "feature": "amount_log",
+      "importance": 0.03953009788310165
+    },
+    {
+      "feature": "amount",
+      "importance": 0.036062691049214245
+    },
+    {
+      "feature": "balance_change_dest",
+      "importance": 0.018076196558788334
+    },
+    {
+      "feature": "oldbalanceDest",
+      "importance": 0.005138230815456578
+    },
+    {
+      "feature": "newbalanceDest",
+      "importance": 0.004806064881135827
+    },
+    {
+      "feature": "isFlaggedFraud",
+      "importance": 0.0013995681064454463
+    }
+  ],
+  "best_threshold": 0.5,
+  "fbeta_beta": 2
+}
