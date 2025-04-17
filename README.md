@@ -1,4 +1,4 @@
-# Fraud Detection and Risk Scoring With Machine Learning
+# Fraud Detection and Risk Scoring 
 
 ## Overview
 In this repository, I employ multiple machine learning models to detect fraudulent financial transactions and then use the best model to construct risk score for each transaction. The notebook includes data preprocessing, feature engineering, model training with class imbalance handling, and risk scoring capabilities.
