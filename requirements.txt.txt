@@ -1,8 +1,0 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-tensorflow==2.10.0
-joblib
